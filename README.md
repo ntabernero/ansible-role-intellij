@@ -7,11 +7,11 @@ Ansible role to install IntelliJ IDEA Community Edition
 ```
  - hosts: all
    roles:
-     - jdauphant.intellij
+     - ntabernero.intellij
 ```
 
 # Notes
 - Required Java installed
 
 # Links
-- https://galaxy.ansible.com/list#/roles/3110
+- https://galaxy.ansible.com/list#/roles/5732

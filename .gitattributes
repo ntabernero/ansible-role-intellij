@@ -1,0 +1,11 @@
+# Determine text vs binary by scanning file content
+*    text=auto
+
+# Ditto for "dot" files (the pattern uses "glob" syntax)
+.??* text=auto
+
+# Declare Windows text files that will always have CRLF line endings on
+# checkout.
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.sln text eol=crlf
