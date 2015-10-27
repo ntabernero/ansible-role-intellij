@@ -1,4 +1,10 @@
 #!/bin/sh
-export IDEA_HOME="{{intellij_install_dir}}/{{intellij_folder_name}}/bin"
- 
+# {{ ansible_managed }}
+
+export IDEA_HOME="{{ intellij_install_dir }}/{{ intellij_folder_name }}/bin"
+
+{% if intellij_jdk_dir is defined %}
+export IDEA_JDK="{{ intellij_jdk_dir }}"
+{% endif %}
+
 $IDEA_HOME/idea.sh $*

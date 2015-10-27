@@ -33,7 +33,7 @@
   template: src=idea.properties.j2 dest={{intellij_install_dir}}/{{intellij_folder_name}}/bin/idea.properties
   tags: ["configuration","intellij"]
 
-- name: Ensure intellij bin exist
+- name: Ensure intellij bin exists
   template: src=intellij.j2 dest=/usr/bin/intellij mode=755
   tags: ["configuration","intellij"]
 
