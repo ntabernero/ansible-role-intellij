@@ -4,4 +4,4 @@ intellij_pkg_state: installed
 intellij_tmp: /tmp/idea{{intellij_type}}-{{intellij_version}}.tar.gz
 intellij_install_dir: /opt/intellij
 intellij_type: IU
-intellij_version: 2016.1.1
+intellij_version: 2016.2.2
