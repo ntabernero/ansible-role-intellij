@@ -1,5 +1,5 @@
 ---
-- name: Install needed dependancies
+- name: Install needed dependencies
   action: "{{ ansible_pkg_mgr }} state=present name={{ item }}"
   with_items:
     - tar
